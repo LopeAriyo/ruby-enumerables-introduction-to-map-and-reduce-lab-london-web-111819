@@ -101,11 +101,11 @@ def reduce_to_all_true (array)
     
   end
 
-  #if value == array.length then
-  #  true_or_false = 2
-  #else
-  #  true_or_false = nil
-  #end
+  if value == array.length then
+    true_or_false = 2
+  else
+    true_or_false = nil
+  end
 
   p value
 
