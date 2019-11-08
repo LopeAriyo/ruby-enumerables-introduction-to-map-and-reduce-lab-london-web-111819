@@ -68,7 +68,7 @@ end
 
 def reduce_to_total(array, start_point)
 
- total = 0
+ total = start_point
  i = 0
 
  until  i == array.length do
