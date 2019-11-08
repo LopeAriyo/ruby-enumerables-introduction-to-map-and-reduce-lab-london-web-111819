@@ -107,7 +107,7 @@ def reduce_to_all_true (array)
     true_or_false = false
   end
 
-  p true_or_false
+  p value
 
 end
 
