@@ -85,17 +85,7 @@ end
 
 def reduce_to_all_true (array, start)
 
-  total = 0
-  i = 0
-
-  until  i == array.length do
-
-    total += array[i]
-    i += 1
-
-  end
-
-  p total
+  
 
 
 end
