@@ -50,7 +50,7 @@ p result
 end
 
 
-def map_to_square
+def map_to_square (array)
 
   i = 0
   result = []
