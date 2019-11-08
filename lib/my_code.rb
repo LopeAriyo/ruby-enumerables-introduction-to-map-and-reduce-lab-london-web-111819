@@ -107,7 +107,7 @@ def reduce_to_all_true (array)
     true_or_false = nil
   end
 
-  p value
+  p array.length
 
 end
 
