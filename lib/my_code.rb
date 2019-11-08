@@ -93,6 +93,8 @@ def reduce_to_all_true (array)
 
     if array[i] == true
       value += 1
+    else 
+      value -= 1
     end
 
     i += 1
