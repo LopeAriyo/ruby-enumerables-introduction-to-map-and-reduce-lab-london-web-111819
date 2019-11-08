@@ -83,8 +83,27 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 
-def reduce_to_all_true (array, start)
+def reduce_to_all_true (array)
 
+  value = 0
+  true_or_false = nil
+
+  until  i == array.length do
+
+  if array[i] == true 
+    value += 1
+  end 
+    
+    i += 1
+  end
+
+  if value = array.length then
+    true_or_false = true
+  else  
+    true_or_false = false
+  end  
+
+  p true_or_false 
 
 
 
