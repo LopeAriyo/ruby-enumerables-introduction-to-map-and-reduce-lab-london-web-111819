@@ -83,7 +83,7 @@ def reduce_to_total(array)
 end
 
 
-def reduce_to_all_true (array)
+def reduce_to_all_true (array, start)
 
   total = 0
   i = 0
