@@ -72,7 +72,7 @@ def reduce_to_total(array)
 
  until  i == array.length do
 
-   result += result array[i]
+   result += result + array[i]
    i += 1
 
  end
