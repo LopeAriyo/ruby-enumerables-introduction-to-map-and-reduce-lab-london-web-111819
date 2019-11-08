@@ -65,3 +65,13 @@ def map_to_square (array)
 p result
 
 end
+
+def reduce_to_total
+end
+
+
+def reduce_to_all_true
+end
+
+def reduce_to_any_true
+end
