@@ -86,25 +86,16 @@ end
 def reduce_to_all_true (array)
 
   i = 0
-  value = 0
   true_or_false = 0
 
   until  i == array.length do
 
-    if array[i] == true
-      value += 1
-    else
-      value -= 1
+    if array[i] == false
+      true_or_false = false
     end
 
     i += 1
 
-  end
-
-  if value == array.length
-    true_or_false = true
-  else
-    true_or_false = false
   end
 
   p true_or_false
