@@ -72,7 +72,7 @@ def reduce_to_total (array)
 
 
  p result
- 
+
 end
 
 
