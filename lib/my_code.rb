@@ -85,6 +85,7 @@ end
 
 def reduce_to_all_true (array)
 
+  i =0
   value = 0
   true_or_false = nil
 
