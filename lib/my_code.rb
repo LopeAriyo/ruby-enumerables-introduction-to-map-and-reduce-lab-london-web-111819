@@ -98,7 +98,7 @@ def reduce_to_all_true (array)
     end
 
     i += 1
-    
+
   end
 
   if value == array.length then
