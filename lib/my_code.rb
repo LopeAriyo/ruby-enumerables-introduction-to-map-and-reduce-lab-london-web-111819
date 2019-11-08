@@ -100,8 +100,6 @@ def reduce_to_all_true (array)
 
   if value = array.length then
     true_or_false = true
-  else
-    true_or_false = nil
   end
 
   p true_or_false
