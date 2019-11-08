@@ -68,11 +68,11 @@ end
 
 def reduce_to_total(array)
 
- result = 0
+ total = 0
 
  until  i == array.length do
 
-   result += result + array[i]
+   total += array[i]
    i += 1
 
  end
