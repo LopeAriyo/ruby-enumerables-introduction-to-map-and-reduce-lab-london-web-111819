@@ -98,13 +98,13 @@ def reduce_to_all_true (array)
     i += 1
   end
 
-  if value == array.length then
-    true_or_false = 2
-  else
-    true_or_false = nil
-  end
+  #if value == array.length then
+  #  true_or_false = 2
+  #else
+  #  true_or_false = nil
+  #end
 
-  p true_or_false
+  p value
 
 end
 
