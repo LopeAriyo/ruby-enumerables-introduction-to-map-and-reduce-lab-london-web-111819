@@ -1,13 +1,13 @@
 # My Code here....
 def map_to_negativize (array)
 
-  i = 0 
+  i = 0
   result[]
-  
+
   until  i == array.length do
 
     result.push(-array[i])
-    
+
   end
 
 end
