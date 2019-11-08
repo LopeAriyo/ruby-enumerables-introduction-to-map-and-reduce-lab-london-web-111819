@@ -7,8 +7,12 @@ def map_to_negativize (array)
   until  i == array.length do
 
     result.push(-array[i])
-
+    i += 1
+   
   end
+
+p result
+  
 
 end
 
