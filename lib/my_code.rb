@@ -16,18 +16,52 @@ p result
 
 end
 
-def map_to_no_change
+def map_to_no_change(array)
+
+  i = 0
+  result = []
+
+  until  i == array.length do
+
+    result.push(array[i])
+    i += 1
+
+  end
+
+p result
+
 
 end
 
-def map_to_double
+def map_to_double (array)
+
+  i = 0
+  result = []
+
+  until  i == array.length do
+
+    result.push(array[i]*2)
+    i += 1
+
+  end
+
+p result
+
 end
 
 
 def map_to_square
 
-  #result = [a**2, b**2, c**2, d**2]
+  i = 0
+  result = []
 
+  until  i == array.length do
 
-  #p result
+    result.push(array[i]**2)
+    i += 1
+
+  end
+
+p result
+
 end
