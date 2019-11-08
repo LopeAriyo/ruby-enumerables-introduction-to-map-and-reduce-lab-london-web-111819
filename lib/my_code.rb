@@ -85,7 +85,7 @@ end
 
 def reduce_to_all_true (array, start)
 
-  
+
 
 
 end
