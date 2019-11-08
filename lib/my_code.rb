@@ -86,7 +86,7 @@ end
 def reduce_to_all_true (array)
 
   i = 0
-  true_or_false = 0
+  true_or_false = true
 
   until  i == array.length do
 
