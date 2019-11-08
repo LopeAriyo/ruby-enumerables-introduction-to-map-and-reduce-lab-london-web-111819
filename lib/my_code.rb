@@ -67,6 +67,12 @@ p result
 end
 
 def reduce_to_total (array)
+
+ result = []
+
+
+ p result
+ 
 end
 
 
