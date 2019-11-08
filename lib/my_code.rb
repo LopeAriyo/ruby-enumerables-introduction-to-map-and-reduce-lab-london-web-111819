@@ -66,7 +66,7 @@ p result
 
 end
 
-def reduce_to_total(array, starting_point)
+def reduce_to_total(array, starting_point = 0)
 
  total = starting_point
  i = 0
