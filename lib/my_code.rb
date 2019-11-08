@@ -103,4 +103,20 @@ def reduce_to_all_true (array)
 end
 
 def reduce_to_any_true (array)
+
+  i = 0
+  true_or_false = false
+
+  until  i == array.length do
+
+    if array[i] == true
+      true_or_false = true
+    end
+
+    i += 1
+
+  end
+
+  p true_or_false
+  
 end
