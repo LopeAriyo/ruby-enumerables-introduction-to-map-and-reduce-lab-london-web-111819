@@ -91,7 +91,7 @@ def reduce_to_all_true (array)
 
   until  i == array.length do
 
-    if array[i] == true
+    if array[i] == truthy
       value += 1
     else
       value -= 1
