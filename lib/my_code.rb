@@ -69,7 +69,7 @@ end
 def reduce_to_total(array)
 
  total = 0
- i = 0 
+ i = 0
 
  until  i == array.length do
 
@@ -84,6 +84,20 @@ end
 
 
 def reduce_to_all_true (array)
+
+  total = 0
+  i = 0
+
+  until  i == array.length do
+
+    total += array[i]
+    i += 1
+
+  end
+
+  p total
+
+
 end
 
 def reduce_to_any_true (array)
