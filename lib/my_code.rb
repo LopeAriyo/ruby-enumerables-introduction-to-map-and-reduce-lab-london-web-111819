@@ -66,7 +66,7 @@ p result
 
 end
 
-def reduce_to_total (array)
+def reduce_to_total(array)
 
  result = 0
 
