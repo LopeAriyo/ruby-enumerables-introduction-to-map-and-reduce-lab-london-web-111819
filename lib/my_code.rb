@@ -8,11 +8,11 @@ def map_to_negativize (array)
 
     result.push(-array[i])
     i += 1
-   
+
   end
 
 p result
-  
+
 
 end
 
