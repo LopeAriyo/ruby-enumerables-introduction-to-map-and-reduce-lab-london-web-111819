@@ -118,5 +118,5 @@ def reduce_to_any_true (array)
   end
 
   p true_or_false
-  
+
 end
