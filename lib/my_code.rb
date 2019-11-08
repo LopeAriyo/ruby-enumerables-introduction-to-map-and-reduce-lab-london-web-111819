@@ -2,7 +2,7 @@
 def map_to_negativize (array)
 
   i = 0
-  result[]
+  result = []
 
   until  i == array.length do
 
